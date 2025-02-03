@@ -13,7 +13,7 @@ This project provides an interactive registration and login form built with HTML
 
 ## Demo
 
-![Demo ]([path/to/screenshot.png](https://codepen.io/mr-zouraiz123/pen/pvzPOJK))
+![Demo Screenshot](path/to/[screenshot.png](https://raw.githubusercontent.com/zouraiz523/Interactive-Registration-and-Login-Form/refs/heads/main/Register.PNG))
 
 ## Getting Started
 
