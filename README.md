@@ -11,10 +11,6 @@ This project provides an interactive registration and login form built with HTML
 - **Dynamic Color Picker:** Updates and displays the selected color’s hex value in real-time.
 - **Modern UI Elements:** Stylish form container, input fields, and interactive auth-switch links with hover and active states.
 
-## Demo
-
-![Demo Screenshot](path/to/[screenshot.png](https://raw.githubusercontent.com/zouraiz523/Interactive-Registration-and-Login-Form/refs/heads/main/Register.PNG))
-
 ## Getting Started
 
 ### Prerequisites
