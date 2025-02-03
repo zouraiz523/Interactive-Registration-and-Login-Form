@@ -1,0 +1,300 @@
+/* Reset default margin, padding, and set box-sizing to border-box for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body element */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #e1bee7);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container for the form */
+.form-container {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    animation: fadeIn 0.8s ease;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Style for form header */
+.form-container h2 {
+    font-size: 2rem;
+    color: #4a148c;
+    margin-bottom: 20px;
+}
+
+/* Style for form groups */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Style for form labels */
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Style for form inputs */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Style for focused form inputs */
+.form-group input:focus {
+    border-color: #7b1fa2;
+    box-shadow: 0px 3px 6px rgba(123, 31, 162, 0.3);
+}
+
+/* Container for color picker */
+.color-picker-container {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Style for color picker input */
+.color-picker-container input[type="color"] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Style for hovered and focused color picker input */
+.color-picker-container input[type="color"]:hover,
+.color-picker-container input[type="color"]:focus {
+    border-color: #7b1fa2;
+    box-shadow: 0px 3px 6px rgba(123, 31, 162, 0.3);
+}
+
+/* Style for hex value text */
+.hex-value {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 8px;
+}
+
+/* Style for buttons */
+button {
+    background: #7b1fa2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(123, 31, 162, 0.3);
+}
+
+/* Style for hovered buttons */
+button:hover {
+    background: #4a148c;
+    box-shadow: 0px 5px 15px rgba(74, 20, 140, 0.4);
+}
+
+/* Style for disabled buttons */
+button:disabled {
+    background: #bbb;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Style for login button */
+.login-btn {
+    background: #4a148c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(74, 20, 140, 0.3);
+    margin-top: 10px;
+}
+
+/* Style for hovered login button */
+.login-btn:hover {
+    background: #7b1fa2;
+    box-shadow: 0px 5px 15px rgba(123, 31, 162, 0.4);
+}
+
+/* Style for disabled login button */
+.login-btn:disabled {
+    background: #bbb;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Style for form header */
+.form-header h1 {
+    font-size: 2rem;
+    color: #4a148c;
+    margin-bottom: 10px;
+}
+
+/* Style for form switch text */
+#formSwitchText {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Style for form switch link */
+#formSwitchLink {
+    color: #7b1fa2;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style for hovered form switch link */
+#formSwitchLink:hover {
+    color: #4a148c;
+}
+
+/* Style for input group */
+.input-group {
+    position: relative;
+}
+
+/* Style for eye icons */
+.feather-eye, .feather-eye-off {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+}
+
+/* Style for form footer */
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Style for form footer links */
+.form-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style for hovered form footer links */
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles for screens with max width of 768px */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
+    .hex-value {
+        font-size: 0.8rem;
+    }
+}
+
+/* Hidden class to hide elements */
+.hidden {
+    display: none;
+}
+
+/* Duplicate styles for form container */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+/* Duplicate styles for form header */
+.form-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for form header paragraph */
+.form-header p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Duplicate styles for form group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Duplicate styles for input group */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+/* Duplicate styles for input group input */
+.input-group input {
+    flex: 1;
+}
+
+/* Style for password icon */
+.password-icon {
+    margin-left: -30px;
+}
